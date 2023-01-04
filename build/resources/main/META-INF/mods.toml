@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="rpaint"
+version="1.0.0"
+displayName="RPaint"
+credits="(c) aux auteurs des peintures et/ou images utilisées. Sur une idée de eniriss"
+displayURL="https://discord.gg/sTBWAQUsxM"
+authors="CyanurePV , eniriss"
+description='''
+Mod RP ajoutant diverses peintures
+'''
+
+[[dependencies.rpaint]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+
