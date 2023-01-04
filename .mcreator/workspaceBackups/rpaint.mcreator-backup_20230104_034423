@@ -1,9 +1,20 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "TabRpaint",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tab_rpaint"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "itemGroup.tabtab_rpaint": "RPaint"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -13,8 +24,9 @@
     "modid": "rpaint",
     "modName": "RPaint",
     "version": "1.0.0",
-    "author": "Raph, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "description": "Mod RP ajoutant diverses peintures",
+    "author": "CyanurePV , eniriss",
+    "websiteURL": "https://discord.gg/sTBWAQUsxM",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -23,6 +35,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
+    "credits": "(c) aux auteurs des peintures et/ou images utilisées. Sur une idée de eniriss",
     "modElementsPackage": "com.cyanurepv.rpaint",
     "lockBaseModFiles": false
   },
