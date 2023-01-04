@@ -36,6 +36,8 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.AbstractMap;
 
+import com.cyanurepv.rpaint.init.RpaintModTabs;
+
 @Mod("rpaint")
 public class RpaintMod {
 	public static final Logger LOGGER = LogManager.getLogger(RpaintMod.class);
@@ -43,7 +45,7 @@ public class RpaintMod {
 
 	public RpaintMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-
+		RpaintModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 	}
