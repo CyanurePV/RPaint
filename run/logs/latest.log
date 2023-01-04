@@ -1,211 +1,118 @@
-[04janv.2023 02:12:42.643] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, C:\Users\Raph\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.1.7, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
-[04janv.2023 02:12:42.646] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.3 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[04janv.2023 02:12:42.779] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Raph/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23120!/ Service=ModLauncher Env=CLIENT
-[04janv.2023 02:12:43.094] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Raph\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.1.7\3535e9c3e5218abcecea1496a5c3a5c3207096d8\javafmllanguage-1.19.2-43.1.7.jar is missing mods.toml file
-[04janv.2023 02:12:43.098] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Raph\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.1.7\a34960c25b16742b648accc1f198dde78abb666a\lowcodelanguage-1.19.2-43.1.7.jar is missing mods.toml file
-[04janv.2023 02:12:43.101] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Raph\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.1.7\f1f25884b81fb6dc87bed375e43323e690af297c\mclanguage-1.19.2-43.1.7.jar is missing mods.toml file
-[04janv.2023 02:12:43.105] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Raph\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.1.7\d19281d83514be3dbec3d6d1f1f82a486ce85a4e\fmlcore-1.19.2-43.1.7.jar is missing mods.toml file
-[04janv.2023 02:12:43.168] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[04janv.2023 02:12:44.161] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Raph\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 1.19]
-[04janv.2023 02:12:46.990] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[04janv.2023 02:12:48.249] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Raph/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.7_mapped_official_1.19.2/forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/assets/.mcassetsroot' uses unexpected schema
-[04janv.2023 02:12:48.250] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Raph/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.7_mapped_official_1.19.2/forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/data/.mcassetsroot' uses unexpected schema
-[04janv.2023 02:12:48.273] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[04janv.2023 02:12:48.277] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[04janv.2023 02:12:48.362] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[04janv.2023 02:12:48.752] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.1.7, for MC 1.19.2 with MCP 20220805.130853
-[04janv.2023 02:12:48.753] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.1.7 Initialized
-[04janv.2023 02:12:49.434] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
-[04janv.2023 02:12:49.541] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[04janv.2023 02:12:49.566] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[04janv.2023 02:12:49.866] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[04janv.2023 02:12:50.368] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.1.7 Target: 43.2.0
-[04janv.2023 02:12:55.482] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[04janv.2023 02:12:55.482] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[04janv.2023 02:12:55.529] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on CABLE Input (VB-Audio Virtual Cable)
-[04janv.2023 02:12:55.530] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[04janv.2023 02:12:55.647] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
-[04janv.2023 02:12:55.650] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x2 minecraft:textures/atlas/signs.png-atlas
-[04janv.2023 02:12:55.651] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
-[04janv.2023 02:12:55.651] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
-[04janv.2023 02:12:55.652] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
-[04janv.2023 02:12:55.652] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
-[04janv.2023 02:12:55.652] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
-[04janv.2023 02:12:56.209] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[04janv.2023 02:12:56.363] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[04janv.2023 02:12:56.364] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[04janv.2023 02:12:56.364] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[04janv.2023 02:13:04.729] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[04janv.2023 02:13:05.301] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
-[04janv.2023 02:13:05.655] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19.2
-[04janv.2023 02:13:05.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[04janv.2023 02:13:05.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[04janv.2023 02:13:07.842] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 0 %
-[04janv.2023 02:13:07.842] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 0 %
-[04janv.2023 02:13:07.842] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 0 %
-[04janv.2023 02:13:07.842] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 0 %
-[04janv.2023 02:13:07.947] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 0 %
-[04janv.2023 02:13:08.428] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 42 %
-[04janv.2023 02:13:08.752] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[04janv.2023 02:13:08.765] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2845 ms
-[04janv.2023 02:13:08.854] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
-[04janv.2023 02:13:08.856] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[04janv.2023 02:13:09.002] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[04janv.2023 02:13:09.516] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[04janv.2023 02:13:09.564] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@367a3aa5
-[04janv.2023 02:13:09.577] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:42a17f5a] logged in with entity id 181 at (-45.32183186108657, 75.0, 63.979216632715236)
-[04janv.2023 02:13:09.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev a rejoint la partie
-[04janv.2023 02:13:10.651] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
-[04janv.2023 02:13:26.802] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[04janv.2023 02:13:26.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:overworld
-[04janv.2023 02:13:26.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:the_nether
-[04janv.2023 02:13:26.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:the_end
-[04janv.2023 02:14:07.189] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[04janv.2023 02:14:11.704] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[04janv.2023 02:14:11.704] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[04janv.2023 02:14:11.751] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on CABLE Input (VB-Audio Virtual Cable)
-[04janv.2023 02:14:11.751] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[04janv.2023 02:14:11.883] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[04janv.2023 02:14:11.889] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[04janv.2023 02:14:11.889] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[04janv.2023 02:14:11.890] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[04janv.2023 02:14:11.891] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[04janv.2023 02:14:11.891] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[04janv.2023 02:14:11.892] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[04janv.2023 02:14:12.149] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[04janv.2023 02:14:12.327] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[04janv.2023 02:14:12.327] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[04janv.2023 02:14:12.327] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[04janv.2023 02:14:58.168] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 15, from 5
-[04janv.2023 02:16:48.015] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 8 advancements
-[04janv.2023 02:16:51.822] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 26 advancements
-[04janv.2023 02:17:40.513] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 27 advancements
-[04janv.2023 02:17:51.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev a réalisé le progrès [Chaud devant !]
-[04janv.2023 02:17:51.068] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev a réalisé le progrès [Chaud devant !]
-[04janv.2023 02:17:51.116] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 34 advancements
-[04janv.2023 02:19:40.264] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5128, l='ServerLevel[Test_init]', x=27.50, y=66.00, z=231.50] died, message: 'Villageois a subi trop de pression'
-[04janv.2023 02:19:40.267] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5157, l='ServerLevel[Test_init]', x=27.50, y=66.00, z=231.50] died, message: 'Villageois a subi trop de pression'
-[04janv.2023 02:19:40.267] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5167, l='ServerLevel[Test_init]', x=27.50, y=66.00, z=231.50] died, message: 'Villageois a subi trop de pression'
-[04janv.2023 02:19:40.268] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5128, l='ClientLevel', x=27.50, y=66.00, z=231.50] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:19:40.268] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5157, l='ClientLevel', x=27.50, y=66.00, z=231.50] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:19:40.268] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5167, l='ClientLevel', x=27.50, y=66.00, z=231.50] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:19:46.213] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5117, l='ServerLevel[Test_init]', x=27.85, y=66.00, z=231.15] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:19:46.213] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5119, l='ServerLevel[Test_init]', x=27.85, y=66.00, z=231.85] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:19:46.213] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5121, l='ServerLevel[Test_init]', x=27.85, y=66.00, z=231.85] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:19:46.214] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5130, l='ServerLevel[Test_init]', x=27.85, y=66.00, z=231.15] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:19:46.214] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5132, l='ServerLevel[Test_init]', x=27.85, y=66.00, z=231.85] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:19:46.214] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5134, l='ServerLevel[Test_init]', x=27.85, y=66.00, z=231.85] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:19:46.214] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5136, l='ServerLevel[Test_init]', x=27.15, y=66.00, z=231.85] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:19:46.214] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5140, l='ServerLevel[Test_init]', x=27.15, y=66.00, z=231.85] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:19:46.214] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5144, l='ServerLevel[Test_init]', x=27.85, y=66.00, z=231.15] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:19:46.214] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5147, l='ServerLevel[Test_init]', x=27.85, y=66.00, z=231.15] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:19:46.214] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5149, l='ServerLevel[Test_init]', x=27.85, y=66.00, z=231.15] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:19:46.215] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5153, l='ServerLevel[Test_init]', x=27.15, y=66.00, z=231.85] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:19:46.215] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5159, l='ServerLevel[Test_init]', x=27.85, y=66.00, z=231.85] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:19:46.215] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5163, l='ServerLevel[Test_init]', x=27.15, y=66.00, z=231.15] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:19:46.216] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5169, l='ServerLevel[Test_init]', x=27.15, y=66.00, z=231.85] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:19:46.216] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5173, l='ServerLevel[Test_init]', x=27.15, y=66.00, z=231.29] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:19:46.229] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5117, l='ClientLevel', x=27.85, y=66.00, z=231.15] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:19:46.229] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5119, l='ClientLevel', x=27.85, y=66.00, z=231.85] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:19:46.230] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5121, l='ClientLevel', x=27.85, y=66.00, z=231.85] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:19:46.230] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5130, l='ClientLevel', x=27.85, y=66.00, z=231.15] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:19:46.230] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5132, l='ClientLevel', x=27.85, y=66.00, z=231.85] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:19:46.230] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5134, l='ClientLevel', x=27.85, y=66.00, z=231.85] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:19:46.230] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5136, l='ClientLevel', x=27.15, y=66.00, z=231.85] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:19:46.230] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5140, l='ClientLevel', x=27.15, y=66.00, z=231.85] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:19:46.230] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5144, l='ClientLevel', x=27.85, y=66.00, z=231.15] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:19:46.230] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5147, l='ClientLevel', x=27.85, y=66.00, z=231.15] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:19:46.231] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5149, l='ClientLevel', x=27.85, y=66.00, z=231.14] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:19:46.231] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5153, l='ClientLevel', x=27.14, y=66.00, z=231.85] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:19:46.231] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5159, l='ClientLevel', x=27.84, y=66.00, z=231.85] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:19:46.231] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5163, l='ClientLevel', x=27.15, y=66.00, z=231.15] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:19:46.231] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5169, l='ClientLevel', x=27.15, y=66.00, z=231.85] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:19:46.231] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5173, l='ClientLevel', x=27.15, y=66.00, z=231.41] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:19:49.214] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5115, l='ServerLevel[Test_init]', x=27.85, y=66.00, z=231.15] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:19:49.214] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5124, l='ServerLevel[Test_init]', x=27.85, y=66.00, z=231.85] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:19:49.214] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5126, l='ServerLevel[Test_init]', x=27.15, y=66.00, z=231.85] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:19:49.215] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5138, l='ServerLevel[Test_init]', x=27.15, y=66.00, z=231.85] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:19:49.215] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5142, l='ServerLevel[Test_init]', x=27.15, y=66.00, z=231.15] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:19:49.215] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5151, l='ServerLevel[Test_init]', x=27.15, y=66.00, z=231.15] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:19:49.215] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5161, l='ServerLevel[Test_init]', x=27.15, y=66.00, z=231.85] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:19:49.218] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5115, l='ClientLevel', x=27.85, y=66.00, z=231.15] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:19:49.218] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5124, l='ClientLevel', x=27.85, y=66.00, z=231.85] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:19:49.218] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5126, l='ClientLevel', x=27.15, y=66.00, z=231.85] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:19:49.218] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5138, l='ClientLevel', x=27.15, y=66.00, z=231.85] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:19:49.218] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5142, l='ClientLevel', x=27.14, y=66.00, z=231.15] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:19:49.218] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5151, l='ClientLevel', x=27.15, y=66.00, z=231.15] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:19:49.219] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5161, l='ClientLevel', x=27.14, y=66.00, z=231.85] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:20:07.613] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5292, l='ServerLevel[Test_init]', x=27.50, y=66.00, z=231.50] died, message: 'Villageois a subi trop de pression'
-[04janv.2023 02:20:07.619] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5292, l='ClientLevel', x=27.50, y=66.00, z=231.50] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:20:07.714] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5236, l='ServerLevel[Test_init]', x=27.50, y=66.00, z=231.50] died, message: 'Villageois a subi trop de pression'
-[04janv.2023 02:20:07.718] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5236, l='ClientLevel', x=27.50, y=66.00, z=231.50] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:20:12.413] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5232, l='ServerLevel[Test_init]', x=27.50, y=66.00, z=231.50] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:20:12.413] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5243, l='ServerLevel[Test_init]', x=27.50, y=66.00, z=231.50] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:20:12.415] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5251, l='ServerLevel[Test_init]', x=27.50, y=66.00, z=231.50] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:20:12.415] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5253, l='ServerLevel[Test_init]', x=27.50, y=66.00, z=231.50] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:20:12.415] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5257, l='ServerLevel[Test_init]', x=27.50, y=66.00, z=231.50] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:20:12.415] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5261, l='ServerLevel[Test_init]', x=27.50, y=66.00, z=231.50] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:20:12.415] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5263, l='ServerLevel[Test_init]', x=27.50, y=66.00, z=231.50] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:20:12.416] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5267, l='ServerLevel[Test_init]', x=27.50, y=66.00, z=231.50] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:20:12.416] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5271, l='ServerLevel[Test_init]', x=27.50, y=66.00, z=231.50] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:20:12.416] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5274, l='ServerLevel[Test_init]', x=27.50, y=66.00, z=231.50] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:20:12.416] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5276, l='ServerLevel[Test_init]', x=27.50, y=66.00, z=231.50] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:20:12.417] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5286, l='ServerLevel[Test_init]', x=27.50, y=66.00, z=231.50] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:20:12.418] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5294, l='ServerLevel[Test_init]', x=27.50, y=66.00, z=231.50] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:20:12.418] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5298, l='ServerLevel[Test_init]', x=27.50, y=66.00, z=231.50] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:20:12.427] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5232, l='ClientLevel', x=27.50, y=66.00, z=231.50] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:20:12.427] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5243, l='ClientLevel', x=27.50, y=66.00, z=231.50] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:20:12.427] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5251, l='ClientLevel', x=27.50, y=66.00, z=231.50] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:20:12.428] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5253, l='ClientLevel', x=27.50, y=66.00, z=231.50] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:20:12.428] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5257, l='ClientLevel', x=27.50, y=66.00, z=231.50] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:20:12.428] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5261, l='ClientLevel', x=27.50, y=66.00, z=231.50] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:20:12.428] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5263, l='ClientLevel', x=27.50, y=66.00, z=231.50] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:20:12.428] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5267, l='ClientLevel', x=27.50, y=66.00, z=231.50] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:20:12.428] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5271, l='ClientLevel', x=27.50, y=66.00, z=231.50] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:20:12.428] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5274, l='ClientLevel', x=27.50, y=66.00, z=231.50] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:20:12.428] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5276, l='ClientLevel', x=27.50, y=66.00, z=231.50] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:20:12.428] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5286, l='ClientLevel', x=27.50, y=66.00, z=231.50] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:20:12.429] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5294, l='ClientLevel', x=27.50, y=66.00, z=231.50] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:20:12.429] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5298, l='ClientLevel', x=27.50, y=66.00, z=231.50] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:20:15.414] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5249, l='ServerLevel[Test_init]', x=27.50, y=66.00, z=231.50] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:20:15.414] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5259, l='ServerLevel[Test_init]', x=27.50, y=66.00, z=231.50] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:20:15.414] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5265, l='ServerLevel[Test_init]', x=27.50, y=66.00, z=231.50] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:20:15.414] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5284, l='ServerLevel[Test_init]', x=27.50, y=66.00, z=231.50] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:20:15.414] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5288, l='ServerLevel[Test_init]', x=27.50, y=66.00, z=231.50] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:20:15.414] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5290, l='ServerLevel[Test_init]', x=27.50, y=66.00, z=231.50] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:20:15.414] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5296, l='ServerLevel[Test_init]', x=27.50, y=66.00, z=231.50] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:20:15.414] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5301, l='ServerLevel[Test_init]', x=27.50, y=66.00, z=231.50] died, message: 'Villageois a suffoqué dans un mur'
-[04janv.2023 02:20:15.416] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5249, l='ClientLevel', x=27.50, y=66.00, z=231.50] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:20:15.417] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5259, l='ClientLevel', x=27.50, y=66.00, z=231.50] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:20:15.417] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5265, l='ClientLevel', x=27.50, y=66.00, z=231.50] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:20:15.417] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5284, l='ClientLevel', x=27.50, y=66.00, z=231.50] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:20:15.417] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5288, l='ClientLevel', x=27.50, y=66.00, z=231.50] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:20:15.417] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5290, l='ClientLevel', x=27.50, y=66.00, z=231.50] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:20:15.417] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5296, l='ClientLevel', x=27.50, y=66.00, z=231.50] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:20:15.417] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5301, l='ClientLevel', x=27.50, y=66.00, z=231.50] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:20:35.362] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5389, l='ServerLevel[Test_init]', x=27.44, y=66.00, z=231.51] died, message: 'Villageois a subi trop de pression'
-[04janv.2023 02:20:35.369] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villageois'/5389, l='ClientLevel', x=27.38, y=66.00, z=231.51] died, message: 'Villageois est mort(e)'
-[04janv.2023 02:21:16.012] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 36 advancements
-[04janv.2023 02:22:53.092] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
-[04janv.2023 02:23:17.738] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Capture d'écran enregistrée sous le nom de 2023-01-04_02.23.17.png
-[04janv.2023 02:23:22.230] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Capture d'écran enregistrée sous le nom de 2023-01-04_02.23.22.png
-[04janv.2023 02:23:23.699] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Capture d'écran enregistrée sous le nom de 2023-01-04_02.23.23.png
-[04janv.2023 02:23:45.255] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Capture d'écran enregistrée sous le nom de 2023-01-04_02.23.45.png
-[04janv.2023 02:23:46.604] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[04janv.2023 02:23:46.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:overworld
-[04janv.2023 02:23:46.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:the_nether
-[04janv.2023 02:23:46.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:the_end
-[04janv.2023 02:23:47.517] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Déconnecté(e)
-[04janv.2023 02:23:47.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev a quitté la partie
-[04janv.2023 02:23:47.523] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[04janv.2023 02:23:47.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[04janv.2023 02:23:47.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[04janv.2023 02:23:47.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[04janv.2023 02:23:48.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:overworld
-[04janv.2023 02:23:48.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:the_nether
-[04janv.2023 02:23:48.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:the_end
-[04janv.2023 02:23:48.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Test_init): All chunks are saved
-[04janv.2023 02:23:48.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[04janv.2023 02:23:48.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[04janv.2023 02:23:48.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[04janv.2023 02:23:50.467] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[04janv.2023 02:51:58.703] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, C:\Users\Raph\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.1.7, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[04janv.2023 02:51:58.707] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.3 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[04janv.2023 02:51:58.898] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Raph/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23120!/ Service=ModLauncher Env=CLIENT
+[04janv.2023 02:51:59.249] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Raph\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.1.7\3535e9c3e5218abcecea1496a5c3a5c3207096d8\javafmllanguage-1.19.2-43.1.7.jar is missing mods.toml file
+[04janv.2023 02:51:59.253] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Raph\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.1.7\a34960c25b16742b648accc1f198dde78abb666a\lowcodelanguage-1.19.2-43.1.7.jar is missing mods.toml file
+[04janv.2023 02:51:59.258] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Raph\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.1.7\f1f25884b81fb6dc87bed375e43323e690af297c\mclanguage-1.19.2-43.1.7.jar is missing mods.toml file
+[04janv.2023 02:51:59.261] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Raph\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.1.7\d19281d83514be3dbec3d6d1f1f82a486ce85a4e\fmlcore-1.19.2-43.1.7.jar is missing mods.toml file
+[04janv.2023 02:51:59.353] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[04janv.2023 02:52:00.652] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Raph\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 1.19]
+[04janv.2023 02:52:04.555] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[04janv.2023 02:52:06.048] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Raph/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.7_mapped_official_1.19.2/forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/assets/.mcassetsroot' uses unexpected schema
+[04janv.2023 02:52:06.048] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Raph/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.1.7_mapped_official_1.19.2/forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar%23183!/data/.mcassetsroot' uses unexpected schema
+[04janv.2023 02:52:06.091] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04janv.2023 02:52:06.096] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[04janv.2023 02:52:06.199] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[04janv.2023 02:52:06.753] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.1.7, for MC 1.19.2 with MCP 20220805.130853
+[04janv.2023 02:52:06.754] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.1.7 Initialized
+[04janv.2023 02:52:07.586] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[04janv.2023 02:52:07.720] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[04janv.2023 02:52:07.746] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[04janv.2023 02:52:08.254] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[04janv.2023 02:52:08.891] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.1.7 Target: 43.2.0
+[04janv.2023 02:52:14.721] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[04janv.2023 02:52:14.721] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[04janv.2023 02:52:14.777] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on CABLE Input (VB-Audio Virtual Cable)
+[04janv.2023 02:52:14.779] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[04janv.2023 02:52:14.919] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[04janv.2023 02:52:14.924] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[04janv.2023 02:52:14.925] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[04janv.2023 02:52:14.925] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[04janv.2023 02:52:14.925] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[04janv.2023 02:52:14.926] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[04janv.2023 02:52:14.926] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[04janv.2023 02:52:15.688] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[04janv.2023 02:52:15.872] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[04janv.2023 02:52:15.874] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[04janv.2023 02:52:15.874] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[04janv.2023 02:52:36.144] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[04janv.2023 02:52:36.824] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
+[04janv.2023 02:52:37.250] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19.2
+[04janv.2023 02:52:37.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[04janv.2023 02:52:37.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[04janv.2023 02:52:39.878] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 0 %
+[04janv.2023 02:52:39.878] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 0 %
+[04janv.2023 02:52:39.907] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 0 %
+[04janv.2023 02:52:39.907] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 0 %
+[04janv.2023 02:52:39.907] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 0 %
+[04janv.2023 02:52:40.170] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 0 %
+[04janv.2023 02:52:40.662] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 0 %
+[04janv.2023 02:52:41.178] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 0 %
+[04janv.2023 02:52:41.655] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 25 %
+[04janv.2023 02:52:42.159] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Préparation de la zone d'apparition : 84 %
+[04janv.2023 02:52:42.305] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4655 ms
+[04janv.2023 02:52:42.307] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[04janv.2023 02:52:42.565] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 15, from 10
+[04janv.2023 02:52:42.568] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[04janv.2023 02:52:42.764] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[04janv.2023 02:52:43.480] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[04janv.2023 02:52:43.543] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@20d35236
+[04janv.2023 02:52:43.567] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:fbc23252] logged in with entity id 219 at (26.40923559477504, 68.0625, 237.69999998807907)
+[04janv.2023 02:52:43.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev a rejoint la partie
+[04janv.2023 02:52:45.706] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 36 advancements
+[04janv.2023 02:52:50.241] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2033ms or 40 ticks behind
+[04janv.2023 02:53:39.858] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[04janv.2023 02:53:39.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:overworld
+[04janv.2023 02:53:39.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:the_nether
+[04janv.2023 02:53:39.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:the_end
+[04janv.2023 02:54:00.658] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[04janv.2023 02:54:00.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:overworld
+[04janv.2023 02:54:00.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:the_nether
+[04janv.2023 02:54:00.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:the_end
+[04janv.2023 02:54:13.808] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[04janv.2023 02:54:13.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:overworld
+[04janv.2023 02:54:13.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:the_nether
+[04janv.2023 02:54:13.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:the_end
+[04janv.2023 02:54:24.508] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[04janv.2023 02:54:24.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:overworld
+[04janv.2023 02:54:24.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:the_nether
+[04janv.2023 02:54:24.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:the_end
+[04janv.2023 02:54:28.458] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[04janv.2023 02:54:28.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:overworld
+[04janv.2023 02:54:28.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:the_nether
+[04janv.2023 02:54:28.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:the_end
+[04janv.2023 02:55:00.755] [Render thread/ERROR] [com.mojang.blaze3d.platform.Window/]: ########## GL ERROR ##########
+[04janv.2023 02:55:00.755] [Render thread/ERROR] [com.mojang.blaze3d.platform.Window/]: @ Render
+[04janv.2023 02:55:00.755] [Render thread/ERROR] [com.mojang.blaze3d.platform.Window/]: 65540: Invalid scancode -1
+[04janv.2023 02:55:16.431] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Commande inconnue ou incomplète, voir l'erreur ci-dessous
+[04janv.2023 02:55:16.434] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] test<-- [ICI]
+[04janv.2023 02:55:25.347] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Commande inconnue ou incomplète, voir l'erreur ci-dessous
+[04janv.2023 02:55:25.348] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] <-- [ICI]
+[04janv.2023 03:00:12.631] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[04janv.2023 03:01:33.564] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 37 advancements
+[04janv.2023 03:02:08.863] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 38 advancements
+[04janv.2023 03:02:20.658] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[04janv.2023 03:02:20.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:overworld
+[04janv.2023 03:02:20.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:the_nether
+[04janv.2023 03:02:20.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:the_end
+[04janv.2023 03:02:31.338] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] La structure "minecraft:village_desert" la plus proche se situe en [-432, ~, 16] (217 blocs de distance)
+[04janv.2023 03:02:34.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev : Dev s'est fait téléporter en -431.500000, 40.154220, 16.500000]
+[04janv.2023 03:02:34.410] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev s'est fait téléporter en -431.500000, 40.154220, 16.500000
+[04janv.2023 03:05:22.359] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[04janv.2023 03:05:22.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:overworld
+[04janv.2023 03:05:22.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:the_nether
+[04janv.2023 03:05:22.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:the_end
+[04janv.2023 03:05:23.125] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Déconnecté(e)
+[04janv.2023 03:05:23.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev a quitté la partie
+[04janv.2023 03:05:23.130] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[04janv.2023 03:05:23.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[04janv.2023 03:05:23.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[04janv.2023 03:05:23.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[04janv.2023 03:05:25.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:overworld
+[04janv.2023 03:05:26.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:the_nether
+[04janv.2023 03:05:26.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test_init]'/minecraft:the_end
+[04janv.2023 03:05:26.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Test_init): All chunks are saved
+[04janv.2023 03:05:26.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04janv.2023 03:05:26.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04janv.2023 03:05:26.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04janv.2023 03:05:30.612] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
