@@ -4,24 +4,24 @@
  */
 package com.cyanurepv.rpaint.init;
 
-import net.minecraft.world.item.Items;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 
 public class RpaintModTabs {
-	public static CreativeModeTab TAB_TAB_RPAINT;
+	public static CreativeModeTab TAB_R_PAINT_CREATIVE_TAB;
 
 	public static void load() {
-		TAB_TAB_RPAINT = new CreativeModeTab("tabtab_rpaint") {
+		TAB_R_PAINT_CREATIVE_TAB = new CreativeModeTab("tabr_paint_creative_tab") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(Items.PAINTING);
+				return new ItemStack(Blocks.STRUCTURE_VOID);
 			}
 
 			@Override
 			public boolean hasSearchBar() {
-				return true;
+				return false;
 			}
-		}.setBackgroundSuffix("item_search.png");
+		};
 	}
 }

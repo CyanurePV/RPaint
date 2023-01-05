@@ -1,19 +1,19 @@
 {
   "mod_elements": [
     {
-      "name": "TabRpaint",
+      "name": "RPaintCreativeTab",
       "type": "tab",
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tab_rpaint"
+      "registry_name": "r_paint_creative_tab"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabtab_rpaint": "RPaint"
+      "itemGroup.tabr_paint_creative_tab": "RPaint"
     }
   },
   "foldersRoot": {
@@ -30,6 +30,7 @@
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "rpaint_creativetab_text",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

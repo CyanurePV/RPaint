@@ -8,6 +8,7 @@ version="1.0.0"
 displayName="RPaint"
 credits="(c) aux auteurs des peintures et/ou images utilisées. Sur une idée de Eniriss "
 displayURL="https://discord.gg/sTBWAQUsxM"
+logoFile="logo.png"
 authors="Eniriss , CyanurePV"
 description='''
 Mod RP ajoutant diverses peintures
