@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="[43,)"
-license="Academic Free License v3.0"
+license="All Rights Reserved"
 
 [[mods]]
 modId="rpaint"
@@ -11,7 +11,7 @@ displayURL="https://discord.gg/sTBWAQUsxM"
 logoFile="logo.png"
 authors="Eniriss , CyanurePV"
 description='''
-Mod RP ajoutant diverses peintures
+Mod RP ajoutant diverses peintures.
 '''
 
 [[dependencies.rpaint]]

@@ -7,6 +7,38 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_paint_creative_tab"
+    },
+    {
+      "name": "OverlayRpaintMenu",
+      "type": "overlay",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overlay_rpaint_menu"
+    },
+    {
+      "name": "ProcessCommande1",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "process_commande_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rapintcommand1",
+      "type": "command",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rapintcommand_1"
     }
   ],
   "variable_elements": [],
@@ -24,10 +56,10 @@
     "modid": "rpaint",
     "modName": "RPaint",
     "version": "1.0.0",
-    "description": "Mod RP ajoutant diverses peintures",
+    "description": "Mod RP ajoutant diverses peintures.",
     "author": "Eniriss , CyanurePV",
     "websiteURL": "https://discord.gg/sTBWAQUsxM",
-    "license": "Academic Free License v3.0",
+    "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "modPicture": "rpaint_creativetab_text",

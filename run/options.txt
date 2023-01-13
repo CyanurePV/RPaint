@@ -26,8 +26,8 @@ screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
 gamma:1.0
-renderDistance:15
-simulationDistance:12
+renderDistance:18
+simulationDistance:5
 entityDistanceScaling:1.0
 guiScale:0
 particles:0
@@ -67,7 +67,7 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
 joinedFirstServer:false
