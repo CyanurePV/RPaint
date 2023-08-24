@@ -6,7 +6,10 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "r_paint_creative_tab"
+      "registry_name": "r_paint_creative_tab",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "OverlayRpaintMenu",
@@ -14,7 +17,12 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "overlay_rpaint_menu"
+      "registry_name": "overlay_rpaint_menu",
+      "metadata": {
+        "files": [
+          "src/main/java/com/cyanurepv/rpaint/client/screens/OverlayRpaintMenuOverlay.java"
+        ]
+      }
     },
     {
       "name": "ProcessCommande1",
@@ -24,6 +32,9 @@
       "locked_code": false,
       "registry_name": "process_commande_1",
       "metadata": {
+        "files": [
+          "src/main/java/com/cyanurepv/rpaint/procedures/ProcessCommande1Procedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -38,13 +49,19 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "rapintcommand_1"
+      "registry_name": "rapintcommand_1",
+      "metadata": {
+        "files": [
+          "src/main/java/com/cyanurepv/rpaint/command/Rapintcommand1Command.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "gui.rpaint.overlay_rpaint_menu.label_rpaint_charge": "RPaint chargé !",
       "itemGroup.tabr_paint_creative_tab": "RPaint"
     }
   },
@@ -72,5 +89,5 @@
     "modElementsPackage": "com.cyanurepv.rpaint",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200348217
+  "mcreatorVersion": 202300224119
 }

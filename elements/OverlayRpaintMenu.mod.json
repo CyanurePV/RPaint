@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 43,
   "_type": "overlay",
   "definition": {
     "priority": "NORMAL",
@@ -7,12 +7,14 @@
       {
         "type": "label",
         "data": {
-          "text": "RPaint chargé !",
+          "name": "label_rpaint_charge",
+          "text": {
+            "fixedValue": "RPaint chargé !"
+          },
           "color": {
             "value": -13395712,
             "falpha": 0.0
           },
-          "name": "RPaint chargé !",
           "x": 23,
           "y": 8
         }
@@ -22,7 +24,6 @@
         "data": {
           "image": "rpaint_crative_item_tab.png",
           "use1Xscale": false,
-          "name": "rpaint_crative_item_tab.png",
           "x": 3,
           "y": 4
         }

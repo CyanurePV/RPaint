@@ -12,6 +12,6 @@ public class ProcessCommande1Procedure {
 			return;
 		RpaintMod.LOGGER.info("Rpaint charg\u00E9! V1.0.2. Code sous DMCA.");
 		if (entity instanceof Player _player && !_player.level.isClientSide())
-			_player.displayClientMessage(Component.literal("RPaint charg\u00E9. Code du mod sous DMCA."), (true));
+			_player.displayClientMessage(Component.literal("RPaint charg\u00E9. Code du mod sous DMCA."), true);
 	}
 }

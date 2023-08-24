@@ -10,9 +10,7 @@ credits="(c) aux auteurs des peintures et/ou images utilisées. Sur une idée de
 displayURL="https://discord.gg/sTBWAQUsxM"
 logoFile="logo.png"
 authors="Eniriss , CyanurePV"
-description='''
-Mod RP ajoutant diverses peintures.
-'''
+description="Mod RP ajoutant diverses peintures."
 
 [[dependencies.rpaint]]
     modId="minecraft"
